@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="411dp"
+    android:layout_height="751dp"
+    android:background="#fffafa"
+    android:orientation="vertical"
+    tools:context=".ClothActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#8CF28017">
+
+        <ImageView
+            android:id="@+id/imageViewHangerFive"
+            android:layout_width="48dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="19dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hanger_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:fontFamily="@font/alex_brush"
+            android:text="Shape"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewHangerFive"
+            app:layout_constraintStart_toEndOf="@+id/imageViewHangerFive"
+            app:layout_constraintTop_toTopOf="@+id/imageViewHangerFive" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="23dp"
+        android:background="#fffafa"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginStart="10dp">
+
+                <LinearLayout
+                    android:layout_width="183dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/butCloth1"
+                        android:layout_width="183dp"
+                        android:layout_height="277dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/grey_fon"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textCloth1"
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/montserrat_reg"
+                        android:gravity="center"
+                        android:letterSpacing=".05"
+                        android:text="название"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageButton
+                        android:id="@+id/butCloth3"
+                        android:layout_width="183dp"
+                        android:layout_height="277dp"
+                        android:layout_marginTop="11dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/grey_fon"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textCloth3"
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/montserrat_reg"
+                        android:gravity="center"
+                        android:letterSpacing=".05"
+                        android:text="название"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageButton
+                        android:id="@+id/butCloth5"
+                        android:layout_width="183dp"
+                        android:layout_height="277dp"
+                        android:layout_marginTop="11dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/grey_fon"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textCloth5"
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/montserrat_reg"
+                        android:gravity="center"
+                        android:letterSpacing=".05"
+                        android:text="название"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageButton
+                        android:id="@+id/butCloth7"
+                        android:layout_width="183dp"
+                        android:layout_height="277dp"
+                        android:layout_marginTop="11dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/grey_fon"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textCloth7"
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/montserrat_reg"
+                        android:gravity="center"
+                        android:letterSpacing=".05"
+                        android:text="название"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageButton
+                        android:id="@+id/butCloth9"
+                        android:layout_width="183dp"
+                        android:layout_height="277dp"
+                        android:layout_marginTop="11dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/grey_fon"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textCloth9"
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/montserrat_reg"
+                        android:gravity="center"
+                        android:letterSpacing=".05"
+                        android:text="название"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageButton
+                        android:id="@+id/butCloth11"
+                        android:layout_width="183dp"
+                        android:layout_height="277dp"
+                        android:layout_marginTop="11dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/grey_fon"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textCloth11"
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/montserrat_reg"
+                        android:gravity="center"
+                        android:letterSpacing=".05"
+                        android:text="название"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageButton
+                        android:id="@+id/butCloth13"
+                        android:layout_width="183dp"
+                        android:layout_height="277dp"
+                        android:layout_marginTop="11dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/grey_fon"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textCloth13"
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/montserrat_reg"
+                        android:gravity="center"
+                        android:letterSpacing=".05"
+                        android:text="название"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageButton
+                        android:id="@+id/butCloth15"
+                        android:layout_width="183dp"
+                        android:layout_height="277dp"
+                        android:layout_marginTop="11dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/grey_fon"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textCloth15"
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/montserrat_reg"
+                        android:gravity="center"
+                        android:letterSpacing=".05"
+                        android:text="название"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageButton
+                        android:id="@+id/butCloth17"
+                        android:layout_width="183dp"
+                        android:layout_height="277dp"
+                        android:layout_marginTop="11dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/grey_fon"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textCloth17"
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/montserrat_reg"
+                        android:gravity="center"
+                        android:letterSpacing=".05"
+                        android:text="название"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageButton
+                        android:id="@+id/butCloth19"
+                        android:layout_width="183dp"
+                        android:layout_height="277dp"
+                        android:layout_marginTop="11dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/grey_fon"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textCloth19"
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        android:fontFamily="@font/montserrat_reg"
+                        android:gravity="center"
+                        android:letterSpacing=".05"
+                        android:text="название"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="183dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="7dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/butCloth2"
+                        android:layout_width="183dp"
+                        android:layout_height="277dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/grey_fon"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textCloth2"
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/montserrat_reg"
+                        android:gravity="center"
+                        android:letterSpacing=".05"
+                        android:text="название"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageButton
+                        android:id="@+id/butCloth4"
+                        android:layout_width="183dp"
+                        android:layout_height="277dp"
+                        android:layout_marginTop="11dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/grey_fon"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textCloth4"
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/montserrat_reg"
+                        android:gravity="center"
+                        android:letterSpacing=".05"
+                        android:text="название"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageButton
+                        android:id="@+id/butCloth6"
+                        android:layout_width="183dp"
+                        android:layout_height="277dp"
+                        android:layout_marginTop="11dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/grey_fon"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textCloth6"
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/montserrat_reg"
+                        android:gravity="center"
+                        android:letterSpacing=".05"
+                        android:text="название"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageButton
+                        android:id="@+id/butCloth8"
+                        android:layout_width="183dp"
+                        android:layout_height="277dp"
+                        android:layout_marginTop="11dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/grey_fon"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textCloth8"
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/montserrat_reg"
+                        android:gravity="center"
+                        android:letterSpacing=".05"
+                        android:text="название"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageButton
+                        android:id="@+id/butCloth10"
+                        android:layout_width="183dp"
+                        android:layout_height="277dp"
+                        android:layout_marginTop="11dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/grey_fon"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textCloth10"
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/montserrat_reg"
+                        android:gravity="center"
+                        android:letterSpacing=".05"
+                        android:text="название"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageButton
+                        android:id="@+id/butCloth12"
+                        android:layout_width="183dp"
+                        android:layout_height="277dp"
+                        android:layout_marginTop="11dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/grey_fon"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textCloth12"
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/montserrat_reg"
+                        android:gravity="center"
+                        android:letterSpacing=".05"
+                        android:text="название"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageButton
+                        android:id="@+id/butCloth14"
+                        android:layout_width="183dp"
+                        android:layout_height="277dp"
+                        android:layout_marginTop="11dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/grey_fon"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textCloth14"
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/montserrat_reg"
+                        android:gravity="center"
+                        android:letterSpacing=".05"
+                        android:text="название"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageButton
+                        android:id="@+id/butCloth16"
+                        android:layout_width="183dp"
+                        android:layout_height="277dp"
+                        android:layout_marginTop="11dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/grey_fon"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textCloth16"
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/montserrat_reg"
+                        android:gravity="center"
+                        android:letterSpacing=".05"
+                        android:text="название"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageButton
+                        android:id="@+id/butCloth18"
+                        android:layout_width="183dp"
+                        android:layout_height="277dp"
+                        android:layout_marginTop="11dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/grey_fon"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textCloth18"
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/montserrat_reg"
+                        android:gravity="center"
+                        android:letterSpacing=".05"
+                        android:text="название"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageButton
+                        android:id="@+id/butCloth20"
+                        android:layout_width="183dp"
+                        android:layout_height="277dp"
+                        android:layout_marginTop="11dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/grey_fon"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textCloth20"
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        android:fontFamily="@font/montserrat_reg"
+                        android:gravity="center"
+                        android:letterSpacing=".05"
+                        android:text="название"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="0dp"
+        android:background="#8CF28017">
+
+        <ImageButton
+            android:id="@+id/imageButtonHomeIcon"
+            android:layout_width="103dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="229dp"
+            android:layout_marginTop="3dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/home_icon_white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageViewClothIcon"
+            android:layout_width="103dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="79dp"
+            android:layout_marginTop="3dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cloth_icon_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#8CF28017" />
+</LinearLayout>

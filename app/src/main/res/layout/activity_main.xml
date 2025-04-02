@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="411dp"
+    android:layout_height="731dp"
+    android:background="#fffafa"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#8CF28017">
+
+        <ImageView
+            android:id="@+id/imageViewHanger"
+            android:layout_width="48dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="19dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hanger_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:fontFamily="@font/alex_brush"
+            android:text="Shape"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewHanger"
+            app:layout_constraintStart_toEndOf="@+id/imageViewHanger"
+            app:layout_constraintTop_toTopOf="@+id/imageViewHanger"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/custom_button_choose_photo"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_reg"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="44dp"/>
+
+
+    <ImageView
+        android:id="@+id/imageResult"
+        android:layout_width="243dp"
+        android:layout_height="342dp"
+        android:background="@color/greyLight"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="84dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_button_next"/>
+</LinearLayout>

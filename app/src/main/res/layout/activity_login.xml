@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="411dp"
+    android:layout_height="731dp"
+    android:background="#fffafa"
+    android:orientation="vertical"
+    tools:context=".ActivityLogin">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#8CF28017">
+
+        <ImageView
+            android:id="@+id/imageViewHangerFour"
+            android:layout_width="48dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="19dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hanger_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:fontFamily="@font/alex_brush"
+            android:text="Shape"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewHangerFour"
+            app:layout_constraintStart_toEndOf="@+id/imageViewHangerFour"
+            app:layout_constraintTop_toTopOf="@+id/imageViewHangerFour"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/emailLogTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_reg"
+        android:text="ЭЛЕКТРОННАЯ ПОЧТА"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="142dp"/>
+
+    <EditText
+        android:id="@+id/emailLogEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/register_place"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="37dp"
+        android:inputType="text"
+        android:paddingLeft="25dp"
+        android:fontFamily="@font/poppins_reg"
+        android:textSize="18sp"
+        android:textColorHint="#787272"
+        android:hint="m.a.ivanova@yandex.ru"/>
+
+    <TextView
+        android:id="@+id/passwordLogTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_reg"
+        android:text="ПАРОЛЬ"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/passwordLogEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/register_place"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="37dp"
+        android:inputType="textPassword"
+        android:paddingLeft="25dp"
+        android:fontFamily="@font/poppins_reg"
+        android:textSize="18sp"
+        android:textColorHint="#787272"
+        android:hint="qwerty123456"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonNextPageAfterLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_button_come"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonBackToReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="-25dp"
+        android:background="@drawable/custom_button_back"/>
+</LinearLayout>

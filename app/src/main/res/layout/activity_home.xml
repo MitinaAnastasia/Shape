@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="411dp"
+    android:layout_height="751dp"
+    android:background="#fffafa"
+    android:orientation="vertical"
+    tools:context=".ActivityHome">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#8CF28017">
+
+        <ImageView
+            android:id="@+id/imageViewHangerThree"
+            android:layout_width="48dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="19dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hanger_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:fontFamily="@font/alex_brush"
+            android:text="Shape"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewHangerThree"
+            app:layout_constraintStart_toEndOf="@+id/imageViewHangerThree"
+            app:layout_constraintTop_toTopOf="@+id/imageViewHangerThree"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/profileIcon"
+        android:layout_width="179.58dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="44dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/account_circle"/>
+    <TextView
+        android:id="@+id/nameProfileText"
+        android:layout_width="411dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="13dp"
+        android:gravity="center"
+        android:fontFamily="@font/montserrat_reg"
+        android:text="maria12"
+        android:letterSpacing=".05"
+        android:textColor="@color/black"
+        android:textSize="32sp"/>
+
+    <TextView
+        android:id="@+id/data1ProfileText"
+        android:layout_width="365dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="44dp"
+        android:gravity="left"
+        android:fontFamily="@font/montserrat_reg"
+        android:text="Email:"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:letterSpacing=".05"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/data2ProfileText"
+        android:layout_width="365dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="24dp"
+        android:gravity="left"
+        android:fontFamily="@font/montserrat_reg"
+        android:text="Пол:"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:letterSpacing=".05"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/data3ProfileText"
+        android:layout_width="365dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="24dp"
+        android:gravity="left"
+        android:fontFamily="@font/montserrat_reg"
+        android:text="Тип фигуры:"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:letterSpacing=".05"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonExitProfile"
+        android:layout_width="171dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/custom_button_exit"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#8CF28017"
+        android:layout_marginTop="12dp">
+        <ImageView
+            android:id="@+id/imageViewHomeIcon"
+            android:layout_width="103dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="229dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/home_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/imageButtonClothIcon"
+            android:layout_width="103dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="79dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cloth_icon"
+            android:background="@android:color/transparent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#8CF28017"/>
+</LinearLayout>

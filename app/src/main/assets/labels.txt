@@ -1,0 +1,3 @@
+apple
+hourglass
+rectangle

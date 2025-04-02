@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="411dp"
+    android:layout_height="731dp"
+    android:background="#fffafa"
+    android:orientation="vertical"
+    tools:context=".ActivityRegister">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#8CF28017">
+
+        <ImageView
+            android:id="@+id/imageViewHangerTwo"
+            android:layout_width="48dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="19dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hanger_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:fontFamily="@font/alex_brush"
+            android:text="Shape"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewHangerTwo"
+            app:layout_constraintStart_toEndOf="@+id/imageViewHangerTwo"
+            app:layout_constraintTop_toTopOf="@+id/imageViewHangerTwo"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_reg"
+        android:text="ИМЯ ПОЛЬЗОВАТЕЛЯ"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/register_place"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="37dp"
+        android:inputType="text"
+        android:paddingLeft="25dp"
+        android:fontFamily="@font/poppins_reg"
+        android:textSize="18sp"
+        android:textColorHint="#787272"
+        android:hint="maria12" />
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_reg"
+        android:text="ЭЛЕКТРОННАЯ ПОЧТА"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/register_place"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="37dp"
+        android:inputType="text"
+        android:paddingLeft="25dp"
+        android:fontFamily="@font/poppins_reg"
+        android:textSize="18sp"
+        android:textColorHint="#787272"
+        android:hint="m.a.ivanova@yandex.ru"/>
+
+    <TextView
+        android:id="@+id/passwordTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_reg"
+        android:text="ПАРОЛЬ"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/register_place"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="37dp"
+        android:inputType="textPassword"
+        android:paddingLeft="25dp"
+        android:fontFamily="@font/poppins_reg"
+        android:textSize="18sp"
+        android:textColorHint="#787272"
+        android:hint="qwerty123456"/>
+    <TextView
+        android:id="@+id/genderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_reg"
+        android:text="ПОЛ"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="20dp"/>
+    <Spinner
+        android:id="@+id/genderSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gender_place"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="37dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonNextRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_button_next"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonToLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="-40dp"
+        android:background="@drawable/custom_button_to_log"/>
+</LinearLayout>
